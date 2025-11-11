@@ -6,6 +6,7 @@ pub trait ShardedMap<K, V> {
     fn get(&self, key: &K) -> Option<V>;
     fn remove(&mut self, key: &K) -> Result<()>;
     fn len(&self) -> usize;
+    fn is_empty(&self) -> bool;
     fn max_capacity(&self) -> usize;
 
     // New batch operations

@@ -216,6 +216,10 @@ where
         self.items.len()
     }
 
+    fn is_empty(&self) -> bool {
+        self.items.is_empty()
+    }
+
     fn max_capacity(&self) -> usize {
         self.max_items as usize
     }
