@@ -8,7 +8,7 @@ repository = "https://github.com/ogbuanu/solana-shardmap"
 authors = ["Ikenna Ogbuanu <ogbuanuikenna66@gmail.com>"]
 readme = "README.md"
 keywords = ["solana", "program", "mapping", "shard", "anchor"]
-categories = ["cryptography", "data-structures", "blockchain"]
+categories = ["cryptography", "data-structures"]
 [lib]
 name = "solana_shardmap"
 crate-type = ["lib"]
